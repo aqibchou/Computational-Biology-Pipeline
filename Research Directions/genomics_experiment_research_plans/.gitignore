@@ -1,0 +1,31 @@
+# Local/generated artifacts excluded from GitHub.
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Downloaded reference databases and local tool environments.
+.toolenvs/
+resources/
+
+# Kaggle-packaged downloaded data and Python caches.
+kaggle_kernels/**/__pycache__/
+kaggle_kernels/**/mibig_archive/
+
+# Large/reproducible execution intermediates.
+outputs/**/version*/
+outputs/**/mibig4_blast/
+outputs/**/iqtree_binary/
+outputs/**/gcp_colabfold*_output/
+outputs/**/kaggle_colabfold_kernel_output/
+outputs/**/ncbi_downloads/
+outputs/**/ncbi_refseq_downloads/
+outputs/**/reference_fastas/
+outputs/**/source_context/
+outputs/**/*.db
+outputs/**/*.a3m
+outputs/**/*_env/
+outputs/**/*.tar.gz
+outputs/**/*.log
+
+# Duplicate local LaTeX build products.
+outputs/perusing_latex_build/
