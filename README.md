@@ -1,5 +1,7 @@
 # Perusing Biological Datasets: What This Project Found
 
+This is the top-level README for the Computational Biology Pipeline repository. The repository is now laid out from the default GitHub directory: completed plan documents live at the root, reusable scripts live in `scripts/`, and the report package lives in `outputs/`.
+
 This project started with a simple question: can public genomics datasets be mined hard enough to produce real, traceable, wet-lab-worthy biological candidates?
 
 The answer from this computational run is yes. Across the completed genomics plans, this work found novel wet-lab candidates in every screened category: natural-product gene clusters, industrial enzymes, nitrogen-cycle pathways, plant-growth-promotion genomes, naturally stable enzyme homologs, rare-chemistry enzymes, biomaterials, and an extremophile enzyme atlas.
@@ -182,6 +184,8 @@ The detailed evidence is preserved in the report package:
 - PDF version: `outputs/perusing_biological_datasets_report_package_2026-05-18/pdf_build/Perusing_Biological_Datasets_Research_Report_Detailed.pdf`
 
 The archive contains 187 packetized candidate records plus the 4,071-row extremophile atlas index.
+
+For a file-by-file index of the completed plan documents and supporting package, see `PROJECT_INDEX.md`.
 
 ## Bottom Line
 

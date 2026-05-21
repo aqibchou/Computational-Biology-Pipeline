@@ -3,6 +3,24 @@
 __pycache__/
 *.py[cod]
 
+# Local workspace material preserved outside the published repository.
+.local_workspace_backup/
+.bioenv/
+.venv/
+Research Directions/
+data/
+dft/
+kaggle_gcs_archives/
+pseudo/
+reports/
+src/
+validation/
+requirements.txt
+
+# Ignore non-curated local scripts from the broader workspace. The scripts
+# already tracked in this repository remain versioned normally.
+scripts/*
+
 # Downloaded reference databases and local tool environments.
 .toolenvs/
 resources/

@@ -1,7 +1,7 @@
 # Genomics and Microbiome Discovery Results
 
 Created: 2026-05-14  
-Source instruction file: `../genomics.md`  
+Original source instruction file: local workspace note `Research Directions/genomics.md`  
 Purpose: document the completed computational genomics screens, the candidates they produced, and the scripts/results needed to audit the work.
 
 ## Scope
@@ -90,6 +90,6 @@ The candidate archive contains 187 packetized candidate records plus the 4,071-r
 
 ## GitHub Results Overview
 
-For a simpler, less formal summary of the completed candidate discovery work, see:
+For the simpler, less formal summary of the completed candidate discovery work, use the repository homepage:
 
-- `GITHUB_RESULTS_OVERVIEW.md`
+- `README.md`
