@@ -46,7 +46,7 @@ The screen found 3 strong BGC candidates:
 - `MGYG000473561:MGYG000473561_12:259192-267836`: T3PKS / polyketide-like BGC candidate with high sequence-novelty context.
 - `MGYG000517341:MGYG000517341_21:36974-66085`: betalactone-like BGC candidate with no close full-MIBiG BiG-SCAPE link at the tested cutoffs.
 
-Why this is exciting: these are not just random antiSMASH hits. The final keep candidates survived whole-MAG antiSMASH support, boundary review, product-class review, MIBiG/BiG-SCAPE dereplication, and safety-context checks. Four other candidates were held because their boundary or domain logic was not clean enough, which makes the final three more credible.
+The final keep candidates survived whole-MAG antiSMASH support, boundary review, product-class review, MIBiG/BiG-SCAPE dereplication, and safety-context checks. Four other candidates were held because their boundary or domain logic was not clean enough, which makes the final three more credible.
 
 What comes next: chemistry-first validation. The next question is whether these BGCs produce detectable compounds, whether those compounds are novel at the chemistry level, and whether any product has useful bioactivity.
 
@@ -59,7 +59,7 @@ The broad screen produced strict and high-precision enzyme queues across dehalog
 - `MGYG000527579_00796`: dehalogenase candidate. This is the cleanest activity-first enzyme lead. It has strong structure support, active-site context, and a clear family hypothesis.
 - `MGYG000517010_03432`: glycosidase candidate. This is a strong secondary lead with full-length structure support and useful pocket geometry, but it needs expert catalytic-residue review before it is as clean as the dehalogenase.
 
-Why this is exciting: Plan 02 moved beyond a generic enzyme table. The best candidates were selected because annotation, family evidence, structure, pocket logic, novelty, and safety-context review converged.
+The best candidates were selected because annotation, family evidence, structure, pocket logic, novelty, and safety-context review converged.
 
 What comes next: expression, soluble recovery, activity assays, substrate-scope testing, and kinetics.
 
@@ -76,7 +76,7 @@ The final screen advanced 6 nitrogen-cycle candidates:
 - `MGYG000517341_01850`: ureC alpha urea/rhizosphere nitrogen candidate from genome `MGYG000517341`.
 - `MGYG000511829_04732`: narG/napA nitrate/nitrite transformation candidate from genome `MGYG000511829`.
 
-Why this is exciting: nitrogen cycling is one of the most societally important parts of the whole project. These candidates point toward questions about nitrogen availability, N2O reduction, rhizosphere nitrogen transformations, and fertilizer-linked biology. The screen also made strong negative calls by rejecting weak AMO/pMMO-like nitrification candidates instead of forcing them through.
+Nitrogen cycling is one of the most societally important parts of the whole project. These candidates point toward questions about nitrogen availability, N2O reduction, rhizosphere nitrogen transformations, and fertilizer-linked biology. The screen also made strong negative calls by rejecting weak AMO/pMMO-like nitrification candidates instead of forcing them through.
 
 What comes next: controlled tests for marker expression, pathway activity, nitrogen transformation, and phenotype-level effects.
 
@@ -91,7 +91,7 @@ The screen found 4 PGP genome candidates:
 - `MGYG000535630`: antifungal-BGC-linked rhizosphere hypothesis.
 - `MGYG000511828`: phosphate-solubilization genome hypothesis.
 
-Why this is exciting: `MGYG000517341` became one of the most practical and consequential candidates in the whole project. It is an isolate from tomato rhizosphere, has 100.0 percent completeness and 0.21 percent contamination, contains seven supported PGP trait classes, and matched public reference material with exact fastANI/skani support. If this performs in controlled plant-association assays, it could matter for plant stress resilience and agricultural microbiome work.
+`MGYG000517341` became one of the most practical and consequential candidates in the whole project. It is an isolate from tomato rhizosphere, has 100.0 percent completeness and 0.21 percent contamination, contains seven supported PGP trait classes, and matched public reference material with exact fastANI/skani support. If this performs in controlled plant-association assays, it could matter for plant stress resilience and agricultural microbiome work.
 
 What comes next: organism access, trait expression, plant-association testing, greenhouse-style validation, and formal safety review.
 
@@ -106,7 +106,7 @@ The screen found 4 immediate natural-stability candidates:
 - `MGYG000518629_02280`: pH-axis esterase-like candidate.
 - `MGYG000478572_01589`: salt-axis transaminase candidate with strong structure support and cofactor complexity.
 
-Why this is exciting: this may be the cleanest near-term wet-lab package. The finalists have sequence novelty, family support, candidate-specific structures, IQ-TREE phylogeny, loop/disorder comparison, charge/salt-bridge proxy context, ThermoMPNN aggregate summaries, and safety-context review. That is a lot of converging evidence for a first-pass enzyme testing set.
+The finalists have sequence novelty, family support, candidate-specific structures, IQ-TREE phylogeny, loop/disorder comparison, charge/salt-bridge proxy context, ThermoMPNN aggregate summaries, and safety-context review. That is a lot of converging evidence for a first-pass enzyme testing set.
 
 What comes next: expression, activity measurement, and stress-condition panels to test whether these natural homologs actually retain function under the predicted conditions.
 
@@ -121,7 +121,7 @@ The screen found 4 rare-chemistry candidates:
 - `MGYG000478572_01361`: rare-sugar candidate from saline marine `Marinobacter salinexigens`.
 - `MGYG000517233_02445`: dehalogenation-class candidate from desert/rhizosphere `Desertivirga`.
 
-Why this is exciting: this is one of the highest-upside parts of the project. Rare chemistry is harder to validate and easier to overinterpret, but the final candidates survived reaction-family mapping, reviewed-homolog context, MSA review, structure confidence, phylogeny, dependency flags, and pocket review. These are exactly the kinds of candidates that could become interesting if even one passes a baseline assay.
+ Rare chemistry is harder to validate and easier to overinterpret, but the final candidates survived reaction-family mapping, reviewed-homolog context, MSA review, structure confidence, phylogeny, dependency flags, and pocket review. These are exactly the kinds of candidates that could become interesting if even one passes a baseline assay.
 
 What comes next: manual mechanism review, expression, cofactor/dependency checks, baseline reaction readouts, and substrate-specific testing.
 
@@ -144,7 +144,7 @@ It also retained 3 BGC/material review holds:
 - `MGYG000517341:MGYG000517341_2:234333-279288`: NRP/lipopeptide-like BGC review hold.
 - `MGYG000521810:MGYG000521810_13:25308-46111`: hserlactone BGC review hold.
 
-Why this is exciting: the biomaterials screen produced multiple classes of testable material hypotheses. It also filtered out a lot of false positives, especially generic lipid-A/LPS and broad surface-protein annotations that should not be treated as real biosurfactant or material evidence. The remaining set is much more practical for targeted product-identity and material-property testing.
+The biomaterials screen produced multiple classes of testable material hypotheses. It also filtered out a lot of false positives, especially generic lipid-A/LPS and broad surface-protein annotations that should not be treated as real biosurfactant or material evidence. The remaining set is much more practical for targeted product-identity and material-property testing.
 
 What comes next: product formation, product identity, recoverability, yield, rheology, coating/adhesion behavior, pigment identity, and material performance.
 
@@ -155,8 +155,6 @@ Plan 08 organized the enzyme work into a reusable atlas.
 The result is a 4,071-row extremophile enzyme atlas with source manifests, row counts, checksums, high-precision enzyme links, extremophile metadata, and stability-feature scores. It includes tracks such as desiccation glycosidases, heat-pressure glycosidases, desiccation esterases, desiccation dehalogenases, desiccation proteases, desiccation lipases, desiccation cellulases, heat-pressure nitrilases, desiccation xylanases, heat-pressure proteases, heat-pressure esterases, and salt glycosidases.
 
 Top stability-feature examples include cellulase candidates such as `MGYG000502387_01211`, `MGYG000517010_00514`, `MGYG000517010_00658`, and related high-priority desiccation-track rows.
-
-Why this is exciting: the atlas makes the enzyme discovery work reusable. It is not just a one-off candidate list. It is a structured map of enzyme candidates, source context, and stability-prioritization features that can feed future screens.
 
 What comes next: selecting small experimental panels from the atlas and testing actual expression, activity, and stress tolerance.
 
